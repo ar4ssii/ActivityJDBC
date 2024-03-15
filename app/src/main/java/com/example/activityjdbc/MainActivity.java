@@ -20,7 +20,7 @@ public class MainActivity extends AppCompatActivity {
     ConnectionClass connectionClass;
     Connection con;
     ResultSet rs;
-    String name, str;
+    String str;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
                 }
                 Toast.makeText(this, str, Toast.LENGTH_SHORT).show();
             });
-                });
+        });
 
     }
 }
